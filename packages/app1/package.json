@@ -1,0 +1,42 @@
+{
+  "name": "@demo/remote1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack",
+    "serve": "serve dist -p 5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/runtime": "^7.25.7",
+    "@babel/core": "^7.17.2",
+    "@babel/plugin-transform-runtime": "^7.25.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.25.7",
+    "babel-loader": "^9.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "serve": "^14.2.3",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "ts-config-single-spa": "^3.0.0",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "single-spa-react": "^6.0.2",
+    "typescript": "^5.6.2",
+    "zustand": "^5.0.0-rc.2"
+  }
+}

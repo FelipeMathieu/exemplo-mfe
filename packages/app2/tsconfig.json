@@ -1,0 +1,9 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "."
+  },
+  "include": ["src/**/*", "node_modules/@types"],
+  "exclude": ["node_modules", "**/*.{js,jsx}"]
+}
